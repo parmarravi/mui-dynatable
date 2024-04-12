@@ -1,0 +1,22 @@
+.styled-progressbar-container {
+    position: relative;
+    width: 100px; /* Adjust the width and height according to your design */
+    height: 100px;
+}
+
+.styled-progressbar-container .CircularProgressbar {
+    position: absolute;
+    z-index: 1;
+}
+
+.styled-progressbar-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: inset 0 0 10px #282828; /* Customize the shadow color and size */
+    pointer-events: none;
+}
