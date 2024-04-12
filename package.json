@@ -1,0 +1,48 @@
+{
+    "name": "mui-dynatable",
+    "version": "1.0.0",
+    "description": "A Material-UI implementation of react-table-plain",
+    "main": "src/index.js",
+    "keywords": [
+        "npm",
+        "node",
+        "javascript",
+        "react",
+        "table",
+        "sorting",
+        "filter",
+        "paging",
+        "mui",
+        "dynamic table",
+        "mui dynamic table"
+    ],
+    "author": "Ravi Parmar",
+    "license": "MIT",
+    "scripts": {
+        "build-lib": "rollup -c",
+        "start": "rollup -c -w"
+    },
+    "peerDependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@material-ui/core": "^4.12.4",
+        "@mui/icons-material": "^5.15.2",
+        "@mui/lab": "^5.0.0-alpha.134",
+        "@mui/material": "^5.15.2",
+        "@mui/system": "^5.14.7",
+        "@mui/utils": "^5.14.7",
+        "autoprefixer": "^10.4.19",
+        "date-fns": "^2.29.3",
+        "dayjs": "^1.11.7",
+        "prettier": "^2.8.7",
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-date-range": "^1.4.0",
+        "react-dom": "^18.2.0"
+    },
+    "dependencies": {
+        "postcss-loader": "^8.1.1"
+    }
+}
