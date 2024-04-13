@@ -264,6 +264,7 @@ const CalendarSelector = ({ onSelect, onSubmit, defaultSelection, dateSelection 
                         minDate={minDate}
                         staticRanges={[]}
                         inputRanges={[]}
+                        style={{ display: 'none' }} // Apply inline CSS style
                         rangeColors={['#046D0A', '#1E00FF', '#ff0000']}
                         className="rdrCalendarWrapper"
                         color={'#1D1D1D'}

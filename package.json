@@ -1,6 +1,6 @@
 {
     "name": "mui-dynatable",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Material-UI implementation of react-table-plain",
     "main": "src/index.js",
     "keywords": [
@@ -27,20 +27,36 @@
         "react-dom": "^18.2.0"
     },
     "devDependencies": {
+        "@babel/core": "^7.23.6",
+        "@babel/preset-env": "^7.23.6",
+        "@babel/preset-react": "^7.23.3",
         "@material-ui/core": "^4.12.4",
         "@mui/icons-material": "^5.15.2",
         "@mui/lab": "^5.0.0-alpha.134",
         "@mui/material": "^5.15.2",
         "@mui/system": "^5.14.7",
         "@mui/utils": "^5.14.7",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-commonjs": "^25.0.7",
+        "@rollup/plugin-image": "^3.0.3",
+        "@rollup/plugin-node-resolve": "^15.2.3",
         "autoprefixer": "^10.4.19",
+        "babel-loader": "^9.1.3",
         "date-fns": "^2.29.3",
         "dayjs": "^1.11.7",
+        "file-loader": "^6.2.0",
+        "postcss": "^8.4.38",
         "prettier": "^2.8.7",
         "prop-types": "^15.8.1",
         "react": "^18.2.0",
         "react-date-range": "^1.4.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "rollup": "^4.9.1",
+        "rollup-plugin-image": "^1.0.2",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-postcss": "^4.0.2",
+        "rollup-plugin-terser": "^7.0.2",
+        "url-loader": "^4.1.1"
     },
     "dependencies": {
         "postcss-loader": "^8.1.1"

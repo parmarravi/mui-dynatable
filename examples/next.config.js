@@ -25,6 +25,7 @@ module.exports = {
 
         config.module.rules.push({
             test: /\.js$/,
+            exclude: /node_modules/,
             include: /node_modules\/mui-dynatable/,
             use: {
                 loader: 'babel-loader',

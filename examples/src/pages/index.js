@@ -1,4 +1,4 @@
-import { MuiDynaTable } from 'mui-dynatable';
+import { MuiDynaTable } from '../../../src/index';
 import React, { useState } from 'react';
 
 function index() {
